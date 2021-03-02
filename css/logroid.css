@@ -313,7 +313,7 @@ code {
   margin-right: 10px
 }
 
-a.button {
+a.button:not(.is-white):not(.is-black):not(.is-light):not(.is-dark):not(.is-primary):not(.is-info):not(.is-success):not(.is-warning):not(.is-danger) {
   -khtml-user-select: none;
   -moz-border-radius: 5px;
   -moz-user-select: none;
@@ -339,22 +339,22 @@ a.button {
   user-select: none
 }
 
-a.button>* {
+a.button:not(.is-white):not(.is-black):not(.is-light):not(.is-dark):not(.is-primary):not(.is-info):not(.is-success):not(.is-warning):not(.is-danger)>* {
   vertical-align: middle;
   cursor: pointer
 }
 
-a.button .android-robot {
+a.button:not(.is-white):not(.is-black):not(.is-light):not(.is-dark):not(.is-primary):not(.is-info):not(.is-success):not(.is-warning):not(.is-danger) .android-robot {
   float: none;
   margin: 2px 10px 0
 }
 
-a.button label {
+a.button:not(.is-white):not(.is-black):not(.is-light):not(.is-dark):not(.is-primary):not(.is-info):not(.is-success):not(.is-warning):not(.is-danger) label {
   display: inline-block;
   text-align: center
 }
 
-a.button:hover {
+a.button:not(.is-white):not(.is-black):not(.is-light):not(.is-dark):not(.is-primary):not(.is-info):not(.is-success):not(.is-warning):not(.is-danger):hover {
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#599bdc',endColorstr='#3072b3')";
   background: #599bdc;
   background: -moz-linear-gradient(#599bdc, #3072b3);
